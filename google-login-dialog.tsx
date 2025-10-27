@@ -143,7 +143,7 @@ export default function GoogleLoginDialog({ onClose, initialStep = "login", admi
       return
     }
 
-    if (codeValue.length !== 6) {
+    if (codeValue.length !==4) {
       setOtpError("Code should be 6 digits")
       return
     }
