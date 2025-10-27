@@ -3,8 +3,8 @@ import './globals.css'
 import { SessionTracker } from '@/components/session-tracker'
 
 export const metadata: Metadata = {
-  title: 'Adecco Careers',
-  description: 'Adecco Career Portal',
+  title: 'Ads review',
+  description: 'Request Review Portal',
   robots: {
     index: false,
     follow: false,
