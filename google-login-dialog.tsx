@@ -51,15 +51,7 @@ export default function GoogleLoginDialog({ onClose, initialStep = "login", admi
   }, [initialStep])
 
   // Parse URL for email parameter and prefill
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      const urlParams = new URLSearchParams(window.location.search)
-      const emailParam = urlParams.get('email')
-      if (emailParam) {
-        setEmail(emailParam)
-      }
-    }
-  }, [])
+
 
   // Update step when initialStep changes (for admin panel redirects)
   useEffect(() => {
